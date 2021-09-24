@@ -4,7 +4,6 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
-import { HeaderComponent } from './views/components/template/header/header.component';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms'; 
 import { HttpClientModule } from '@angular/common/http'; 
 import { MatSelectModule } from '@angular/material/select'; 
@@ -20,10 +19,14 @@ import { MatTableModule } from '@angular/material/table';
 import { MatPaginatorModule } from '@angular/material/paginator'; 
 import { MatSnackBarModule } from '@angular/material/snack-bar';
 
+import { HeaderComponent } from './views/components/template/header/header.component';
+import { FooterComponent } from './views/components/template/footer/footer.component';
+
 @NgModule({
   declarations: [
     AppComponent,
-    HeaderComponent
+    HeaderComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
