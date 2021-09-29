@@ -4,7 +4,8 @@
 
 export const environment = {
   production: false,
-  baseUrl: 'localhost:8080'
+  //baseUrl: 'https://order-service-api.herokuapp.com'
+  baseUrl: 'http://localhost:8080'
 };
 
 /*
