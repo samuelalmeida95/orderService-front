@@ -17,4 +17,10 @@ export class TecnicoService {
     const url = this.baseUrl + "/tecnicos";
     return this.http.get<Tecnico[]>(url);
   }
+
+  findOne(id:Number):Observable<Tecnico>{
+    const url = this.baseUrl + `/tecnicos/${id}`;
+    return this.http.get<Tecnico>(url);
+  }
+  
 }

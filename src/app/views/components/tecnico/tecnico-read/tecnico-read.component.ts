@@ -28,10 +28,11 @@ export class TecnicoReadComponent implements AfterViewInit {
   }
 
   findAll():void {
-    this.service.findAll().subscribe((resposta) => {
+   const subscription =  this.service.findAll().subscribe((resposta) => {
       this.tecnicos = resposta;
       this.dataSource = new MatTableDataSource<Tecnico>(this.tecnicos);
       this.dataSource.paginator = this.paginator;
+      subscription.unsubscribe();
     })
   }
 
