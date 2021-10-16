@@ -2,17 +2,18 @@
     <h1>Criando novo técnico</h1> 
     <mat-form-field class="full-width">
       <mat-label>Nome</mat-label>
-      <input matInput placeholder="Ex. Samuel Almeida">
+      <input [(ngModel)]="tecnico.nome" [formControl]="nome" required name ="nome" matInput placeholder="Ex. Samuel Almeida">
+      <mat-error *ngIf="nome.invalid" >{{ erroNomeInvalido() }}</mat-error>
     </mat-form-field> 
 
     <mat-form-field class="full-width">
         <mat-label>CPF</mat-label>
-        <input matInput placeholder="000.000.000-00">
+        <input [(ngModel)]="tecnico.cpf" name ="cpf" matInput placeholder="000.000.000-00">
       </mat-form-field> 
 
       <mat-form-field class="full-width">
         <mat-label>Telefone</mat-label>
-        <input matInput placeholder="Ex. (00) 90000-0000">
+        <input [(ngModel)]="tecnico.telefone" name ="telefone" matInput placeholder="Ex. (00) 90000-0000">
       </mat-form-field> 
 
       <button (click)="create()" mat-stroked-button color="accent">CRIAR</button>
