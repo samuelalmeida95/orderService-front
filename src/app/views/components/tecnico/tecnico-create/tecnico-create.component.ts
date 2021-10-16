@@ -17,9 +17,9 @@ export class TecnicoCreateComponent implements OnInit {
     telefone: "",
   };
 
-  nome = new FormControl('', [Validators.minLength(5)])
-  cpf = new FormControl('', [Validators.minLength(11)])
-  telefone = new FormControl('', [Validators.minLength(11)])
+  nome = new FormControl("", [Validators.minLength(5)]);
+  cpf = new FormControl("", [Validators.minLength(11)]);
+  telefone = new FormControl("", [Validators.minLength(11)]);
 
   constructor(private router: Router, private service: TecnicoService) {}
 
@@ -48,9 +48,23 @@ export class TecnicoCreateComponent implements OnInit {
     );
   }
 
-  erroNomeInvalido(){
-    if(this.nome.invalid){
-      return 'O nome deve ter entre 5 e 100 caracteres'
+  erroNomeInvalido() {
+    if (this.nome.invalid) {
+      return "O nome deve ter entre 5 e 100 caracteres!";
+    }
+    return false;
+  }
+
+  erroCpfInvalido() {
+    if (this.cpf.invalid) {
+      return "O nome deve ter 11 e 15 caracteres!";
+    }
+    return false;
+  }
+
+  erroTelefoneInvalido() {
+    if (this.telefone.invalid) {
+      return "O telefone deve ter entre 11 e 15 caracteres!";
     }
     return false;
   }

@@ -11,8 +11,7 @@ import { Tecnico } from "../models/tecnico";
 export class TecnicoService {
   baseUrl: String = environment.baseUrl;
 
-  constructor(private http: HttpClient,
-    private snack: MatSnackBar) {}
+  constructor(private http: HttpClient, private snack: MatSnackBar) {}
 
   findAll(): Observable<Tecnico[]> {
     const url = this.baseUrl + "/tecnicos";
@@ -31,9 +30,9 @@ export class TecnicoService {
 
   message(msg: String): void {
     this.snack.open(`${msg}`, `OK`, {
-      horizontalPosition: 'end',
-      verticalPosition: 'top',
-      duration: 4000
-    })
+      horizontalPosition: "end",
+      verticalPosition: "top",
+      duration: 4000,
+    });
   }
 }
