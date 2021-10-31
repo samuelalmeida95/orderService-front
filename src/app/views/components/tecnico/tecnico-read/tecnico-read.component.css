@@ -25,5 +25,9 @@ table {
 }
 
 #edit {
-  color: rgb(16, 155, 136);
+  color: rgb(189, 196, 49);
+}
+
+#delete {
+  color: rgb(191, 60, 50);
 }

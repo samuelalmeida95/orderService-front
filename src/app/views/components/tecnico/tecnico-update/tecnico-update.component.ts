@@ -10,6 +10,7 @@ import { TecnicoService } from "src/app/services/tecnico.service";
   styleUrls: ["./tecnico-update.component.css"],
 })
 export class TecnicoUpdateComponent implements OnInit {
+  
   id_tecnico = "";
 
   tecnico: Tecnico = {
@@ -27,7 +28,7 @@ export class TecnicoUpdateComponent implements OnInit {
     private router: Router,
     private service: TecnicoService,
     private route: ActivatedRoute
-  ) {}
+  ) { }
 
   ngOnInit(): void {
     this.id_tecnico = this.route.snapshot.paramMap.get("id")!;
