@@ -1,0 +1,28 @@
+<form class="form">
+    <h1>Atualizando cliente</h1>
+  
+    <mat-form-field class="full-width">
+      <mat-label>Nome</mat-label>
+      <input [(ngModel)]="cliente.nome" [formControl]="nome" required maxLength="100" name="nome" matInput
+        placeholder="Ex. Samuel Almeida">
+      <mat-error *ngIf="nome.invalid">{{ erroNomeInvalido() }}</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="full-width">
+      <mat-label>CPF</mat-label>
+      <input [(ngModel)]="cliente.cpf" [formControl]="cpf" required name="cpf" maxLength="15" matInput
+        placeholder="000.000.000-00">
+      <mat-error *ngIf="cpf.invalid">{{ erroCpfInvalido() }}</mat-error>
+    </mat-form-field>
+  
+    <mat-form-field class="full-width">
+      <mat-label>Telefone</mat-label>
+      <input [(ngModel)]="cliente.telefone" [formControl]="telefone" required name="telefone" maxLength="15"
+        name="telefone" matInput placeholder="Ex. (00) 90000-0000">
+      <mat-error *ngIf="telefone.invalid">{{ erroTelefoneInvalido() }}</mat-error>
+    </mat-form-field>
+  
+    <button class="mat-elevation-z8"  (click)="update()" [disabled]="erroNomeInvalido() || erroCpfInvalido() || erroTelefoneInvalido()" mat-stroked-button color="accent">ATUALIZAR</button>
+    <button class="mat-elevation-z8" (click)="cancel()" mat-stroked-button color="warn">CANCELAR</button>
+  
+  </form>
