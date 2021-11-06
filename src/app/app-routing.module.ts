@@ -5,6 +5,7 @@ import { ClienteDeleteComponent } from "./views/components/cliente/cliente-delet
 import { ClienteReadComponent } from "./views/components/cliente/cliente-read/cliente-read.component";
 import { ClienteUpdateComponent } from "./views/components/cliente/cliente-update/cliente-update.component";
 import { HomeComponent } from "./views/components/home/home.component";
+import { OsReadComponent } from "./views/components/os/os-read/os-read.component";
 import { TecnicoCreateComponent } from "./views/components/tecnico/tecnico-create/tecnico-create.component";
 import { TecnicoDeleteComponent } from "./views/components/tecnico/tecnico-delete/tecnico-delete.component";
 import { TecnicoReadComponent } from "./views/components/tecnico/tecnico-read/tecnico-read.component";
@@ -13,48 +14,53 @@ import { TecnicoUpdateComponent } from "./views/components/tecnico/tecnico-updat
 const routes: Routes = [
   {
     path: "",
-    component: HomeComponent,
+    component: HomeComponent
   },
 
   {
     path: "tecnicos",
-    component: TecnicoReadComponent,
+    component: TecnicoReadComponent
   },
 
   {
     path: "tecnicos/create",
-    component: TecnicoCreateComponent,
+    component: TecnicoCreateComponent
   },
 
   {
     path: "tecnicos/update/:id",
-    component: TecnicoUpdateComponent,
+    component: TecnicoUpdateComponent
   },
 
   {
     path: "tecnicos/delete/:id",
-    component: TecnicoDeleteComponent,
+    component: TecnicoDeleteComponent
   },
 
   {
     path: "clientes",
-    component: ClienteReadComponent,
+    component: ClienteReadComponent
   },
 
   {
     path: "clientes/create",
-    component: ClienteCreateComponent,
+    component: ClienteCreateComponent
   },
 
   {
     path: "clientes/update/:id",
-    component: ClienteUpdateComponent,
+    component: ClienteUpdateComponent
   },
 
   {
     path: "clientes/delete/:id",
-    component: ClienteDeleteComponent,
+    component: ClienteDeleteComponent
   },
+
+  {
+    path: "os",
+    component: OsReadComponent
+  }
 ];
 
 @NgModule({
