@@ -24,6 +24,7 @@ export class OsReadComponent implements AfterViewInit {
     "status",
     "actions",
   ];
+
   dataSource = new MatTableDataSource<OS>(this.lista);
 
   @ViewChild(MatPaginator) paginator!: MatPaginator;
@@ -72,5 +73,15 @@ export class OsReadComponent implements AfterViewInit {
           ordemServico.cliente = resposta.nome;
         });
     });
+  }
+
+  prioridade(tipoPrioridade: any) {
+    if (tipoPrioridade == "BAIXA") {
+      return "baixa";
+    } else if (tipoPrioridade == "MEDIA") {
+      return "media";
+    } else {
+      return "alta";
+    }
   }
 }
