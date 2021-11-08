@@ -1,0 +1,17 @@
+.container {
+  width: 90%;
+  margin: auto;
+}
+
+h1 {
+  text-align: center;
+}
+
+button {
+  width: 100%;
+  margin-top: 0.5rem;
+}
+.content {
+  display: flex;
+  justify-content: space-around;
+}
