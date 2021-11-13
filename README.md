@@ -1,27 +1,56 @@
-# Order Service
+<h1 align="center"> 💻 Sobre o desafio </h1> 
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 12.2.6.
+<p align="center">
+<img src="https://img.shields.io/badge/HTML%20-%23F7DF1E.svg?&style=for-the-badge&color=E34F26" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/css%20-%23F7DF1E.svg?&style=for-the-badge&color=5BA8EE" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/JavaScript%20-%23F7DF1E.svg?&style=for-the-badge&color=F7DF1E" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Bootstrap%20-%23F7DF1E.svg?&style=for-the-badge&color=7044A3" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Java%20-%23F7DF1E.svg?&style=for-the-badge&color=F7DF1E" />&nbsp;&nbsp;
+<img src="https://img.shields.io/badge/Git flow%20-%23F7DF1E.svg?&style=for-the-badge&color=000" />&nbsp;&nbsp;
+  <img src="https://img.shields.io/badge/Heroku %20-%23F7DF1E.svg?&style=for-the-badge&color=E34F26" />&nbsp;&nbsp;
+</p>
 
-## Development server
+```php 
+Olá! Este é um desafio Angular 10!
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+<i>
+    
+ * O objetivo é construir um Front para consumir uma API de ordens de serviço!
 
-## Code scaffolding
+ * O usuário se cadastra e seus dados ficam salvos
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+ * A aplicação deve receber uma nova ordem de serviço incluindo um tecnico responsavel e o cliente que solicitou a OS
 
-## Build
+ * Cada OS tem um status e prioridade
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+</i>
 
-## Running unit tests
+##
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+### ⌛ <i>Status do Desafio: **`Concluido`** ✔</i>
+ 
+##
 
-## Running end-to-end tests
+![Logo do Markdown](https://github.com/ValdirCezar/ValdirCezar.github.io/blob/master/src/assets/img/gif1.gif?raw=true)
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+<br>
 
-## Further help
+##
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+### 🎯 <i>Diagrama UML</i>
+<img align="center" src="https://github.com/samuelalmeida95/serviceOrder-api/blob/main/diagrama.png"></img>
+
+<br>
+
+<p align="center">Feito com 💚 by Samuel Almeida</p>
+
+<br>
+
+##
+
+<div align="right">
+  <img src="https://img.shields.io/badge/Spring-6DB33F?style=for-the-badge&logo=spring&logoColor=white" align="left"/>&nbsp;&nbsp;
+    <img src="https://img.shields.io/badge/Angular%20-%23F7DF1E.svg?&style=for-the-badge&color=DD0031" align="rigth"/>&nbsp;&nbsp;
+</div>
