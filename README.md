@@ -41,14 +41,19 @@ https://order-service-front.vercel.app/   🚀
 
 ### 💻 <i> Preview do Projeto ❤️ </i>
 
-![Logo do Markdown](https://github.com/ValdirCezar/ValdirCezar.github.io/blob/master/src/assets/img/gif1.gif?raw=true)
+<div align="center">
+  <img src="https://github.com/ValdirCezar/ValdirCezar.github.io/blob/master/src/assets/img/gif1.gif?raw=true"/>
+</div>
 
 <br>
 
 ##
 
 ### 🎯 <i>Diagrama UML</i>
-<img align="center" src="https://github.com/samuelalmeida95/serviceOrder-api/blob/main/diagrama.png"></img>
+
+<div align="center">
+  <img align="center" src="https://github.com/samuelalmeida95/serviceOrder-api/blob/main/diagrama.png"/>
+</div>
 
 <br>
 
