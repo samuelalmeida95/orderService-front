@@ -21,7 +21,7 @@ Olá! Este é um desafio Angular 10!
 
  * O usuário se cadastra e seus dados ficam salvos
 
- * A aplicação deve receber uma nova ordem de serviço incluindo um tecnico responsavel e o cliente que solicitou a OS
+ * A aplicação recebe uma nova ordem de serviço incluindo um técnico responsável e o cliente que solicitou a OS
 
  * Cada OS tem um status e prioridade
   
