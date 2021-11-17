@@ -39,7 +39,7 @@ https://order-service-front.vercel.app/   🚀
 
 ##
 
-### 💻 <i> **`Preview`** do Projeto ❤️ </i>
+### 💻 <i> Preview do Projeto ❤️ </i>
 
 ![Logo do Markdown](https://github.com/ValdirCezar/ValdirCezar.github.io/blob/master/src/assets/img/gif1.gif?raw=true)
 
