@@ -59,4 +59,4 @@ https://order-service-front.vercel.app/   🚀
 
 ##
 
-<p align="center">Feito com 💚 by Samuel Almeida</p>
+<p align="center">Feito com 💙 by Samuel Almeida</p>
