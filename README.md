@@ -24,6 +24,16 @@ Olá! Este é um desafio Angular 10!
  * A aplicação deve receber uma nova ordem de serviço incluindo um tecnico responsavel e o cliente que solicitou a OS
 
  * Cada OS tem um status e prioridade
+  
+ * O usuário pode alterar seus dados 
+  
+ * O Tecnico pode alterar seus dados
+  
+ * Ordens de serviço podem ser alteradas mas não deletadas
+  
+ * Status para ordens de serviço ( Aberta, Em Andamento e Encerrada )
+  
+ * Ordens de serviço possuem prioridades ( Baixa, Média e Alta )
 
 </i>
 
